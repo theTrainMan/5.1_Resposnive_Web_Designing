@@ -16,6 +16,11 @@ h3 {
     color: #483d8b;
 }
 
+code {
+    color: red;
+    font-size: 18px;
+}
+
 .clearfix {
     clear: both;
 }
@@ -35,6 +40,21 @@ h3 {
 
 .inning {
     display: none;
+}
+
+.smallFonts {
+    font-size: 14px;
+    line-height: 1.1em;
+}
+
+.goodFonts {
+    font-size: 16px;
+    line-height: 1.2em;
+}
+
+.biggerFonts {
+    font-size: 18px;
+    line-height: 1.25em;
 }
 
 @media screen and (max-width: 499px) {
