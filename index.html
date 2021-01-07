@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Design - Images</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Introduction -->
+    <h1>Responsive Web Design</h1>
+    <!-- ./introduction -->
+
+    <!-- Container -->
+    <div class="container">
+        <h2>Responsive Tables</h2>
+        <ol class="lists">
+            <li>Hidden Columns</li>
+            <li>No more Tables</li>
+            <li>Contained Tables</li>
+        </ol>
+        <br>
+        <hr><br>
+
+        <table class="table-items">
+            <h3>Hiding Items</h3>
+            <tr>
+                <th>Team Final</th>
+            </tr>
+            <tr>
+                <td>
+                    <span class="shortName">TOR</span>
+                    <span class="longName">Toronto Blue Jays</span>
+                </td>
+                <td class="inning">0</td>
+                <td class="inning">0</td>
+                <td class="inning">0</td>
+                <td class="inning">4</td>
+                <td class="inning">0</td>
+                <td class="inning">1</td>
+                <td class="inning">0</td>
+                <td class="inning">0</td>
+                <td class="inning">0</td>
+                <td class="final">5</td>
+            </tr>
+            <td>
+                <span class="shortName">SFG</span>
+                <span class="longName">San Francisco Giants</span>
+            </td>
+            <td class="inning">0</td>
+            <td class="inning">0</td>
+            <td class="inning">0</td>
+            <td class="inning">4</td>
+            <td class="inning">0</td>
+            <td class="inning">0</td>
+            <td class="inning">0</td>
+            <td class="inning">0</td>
+            <td class="inning">0</td>
+            <td class="final">4</td>
+            </tr>
+        </table>
+        <hr>
+
+        <table class="scores_table table-items">
+            <h3>Hiding Columns</h3>
+            <thead>
+                <tr>
+                    <th>date</th>
+                    <th class="gametime">game time</th>
+                    <th>team</th>
+                    <th colspan="2">score</th>
+                    <th>team</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Friday</td>
+                    <td class="gametime">7:05pm</td>
+                    <td>Dodgers</td>
+                    <td>2</td>
+                    <td class="winner">3</td>
+                    <td class="winner">Giants</td>
+                </tr>
+            </tbody>
+
+        </table>
+        <p style="text-align: center; font-weight: bold; ">Setting the media query to max-width 499px, means that the game time in this series is not seen or invisible.</p>
+        <div class=" clearfix "></div>
+    </div>
+    <!-- ./container-->
+
+    <br>
+    <!-- Footer -->
+    <footer>
+        <section class="reference ">
+            <p><cite>Responsive Web Design Lesson 5</cite> sponsored by Udacity <a href="https://classroom.udacity.com/courses/ud893/lessons/3581758575/concepts/35206393440923 " target="_blank "> Video</a></p>
+            </sectione <section class="trademark ">
+            <p>Designed by &copy;<a href="https://github.com/theTrainMan " target="_blank ">theTrainMan</a> 2021</p>
+        </section>
+    </footer>
+    <!-- ./footer -->
+</body>
+
+</html>

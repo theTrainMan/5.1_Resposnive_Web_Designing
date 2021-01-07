@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2em;
+    background-color: #e8faff;
+    text-align: center;
+}
+
+h2 {
+    color: #006400;
+}
+
+h3 {
+    color: #483d8b;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    padding: 20px;
+    background-color: white;
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.longName {
+    display: none;
+}
+
+.inning {
+    display: none;
+}
+
+@media screen and (max-width: 499px) {
+    .gametime {
+        display: none;
+    }
+}
